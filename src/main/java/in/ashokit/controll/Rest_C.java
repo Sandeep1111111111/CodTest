@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Rest_C {
 	
 	@GetMapping("/")
-	public String getwelcome() {
+	public String greetmsg() {
 		
-		String msg = "Welcome to home";
+		String msg = "Good Morning !!";
 		
 		return msg;
 	}
